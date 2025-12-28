@@ -1,6 +1,10 @@
 ktor:
     application:
         modules:
-            - com.nexus.ktor.ApplicationKt.module
+            - com.nexus.ktor.lancorC.lancorC.ApplicationKt.module
     deployment:
         port: 8080
+
+auth:
+    otp:
+        expirySeconds: 300

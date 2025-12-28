@@ -1,4 +1,4 @@
-package com.nexus.ktor
+package com.nexus.ktor.lancorC.lancorC
 
 import io.ktor.serialization.kotlinx.json.*
 import io.ktor.server.application.*
@@ -9,10 +9,9 @@ import io.ktor.server.response.*
 import io.ktor.server.routing.*
 import org.slf4j.event.*
 
-fun Application.configureRouting() {
-    routing {
-        get("/") {
-            call.respondText("Hello World!")
-        }
+fun Application.configureMonitoring() {
+    install(CallLogging) {
+        level = Level.INFO
+        filter { call -> call.request.path().startsWith("/") }
     }
 }
