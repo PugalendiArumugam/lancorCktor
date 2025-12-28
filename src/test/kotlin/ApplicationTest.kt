@@ -1,6 +1,6 @@
 package com.nexus.ktor
 
-import com.nexus.ktor.lancorC.lancorC.module
+import lancorC.module
 import io.ktor.client.request.*
 import io.ktor.http.*
 import io.ktor.server.testing.*

@@ -1,5 +1,5 @@
 //AuthModels.kt
-package com.nexus.ktor.auth
+package lancorC.auth
 
 
 import kotlinx.serialization.Serializable

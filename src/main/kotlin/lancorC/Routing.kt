@@ -1,9 +1,8 @@
 //Routing.kt
-package com.nexus.ktor.lancorC.lancorC
+package lancorC
 
-import com.nexus.ktor.auth.authRoutes
+import lancorC.auth.authRoutes
 import io.ktor.server.application.*
-import io.ktor.server.response.*
 import io.ktor.server.routing.*
 
 //fun Application.configureRouting() {

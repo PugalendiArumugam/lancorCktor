@@ -1,5 +1,5 @@
 //Otpservice.kt
-package com.nexus.ktor.auth
+package lancorC.auth
 
 import java.time.Instant
 import java.util.concurrent.ConcurrentHashMap

@@ -1,4 +1,4 @@
-package com.nexus.ktor.lancorC.lancorC
+package lancorC
 
 import io.ktor.serialization.kotlinx.json.*
 import io.ktor.server.application.*
